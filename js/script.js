@@ -1,4 +1,4 @@
-const url = `https://gnews.io/api/v4/search?q=news&lang=us&country=us&max=10&apikey=${API_KEY}`
+const url = `https://gnews.io/api/v4/search?q=example&lang=us&country=us&max=10&apikey=${API_KEY}`
 
 fetch(url)
   .then(response => response.json())
